@@ -32,7 +32,6 @@ const AddContact = props => {
             console.log('Error adding Contact '+ error);
         }
         alert(fullname + ' Added!');
-        navigation.navigate('Go To Contacts!');
     }
 
   return (
